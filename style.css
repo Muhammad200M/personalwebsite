@@ -1,0 +1,80 @@
+h1{
+    background-color: #1A2238;
+    display: flex;
+    justify-content: center;
+    color:rgb(40, 231, 135);
+    border: 100px solid  #1A2238;
+    font-size: 75px;
+    outline:10px solid  #000000;
+}
+
+div{
+    font-family: Helvetica;
+    background-color: #ffffff;
+    color: black;	
+    font-size: 32px; 	
+    padding: 5px;  
+    border: 10px solid #ffffff;
+}
+
+nav{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.items1, .items2, #Hobbies0 {
+    color: black;
+}
+
+.items:hover, .items1:hover, .items2:hover, #Hobbies0:hover {
+    background-color: gray;
+    opacity: 0.5;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+a {
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(255, 94, 0);
+}
+
+#Academics .items0{
+    width: 400px;
+    outline: 7px solid black;
+}
+
+h3{
+    font-weight: lighter;
+    font-size: 25px;
+    background-color: rgb(100, 171, 243);
+    border:40px solid rgb(100, 171, 243);
+    border-radius: 4px;
+    outline: 4px solid black;
+}
+
+#hobby{
+    display:flex;
+    justify-content: center;
+}
+
+#items4{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#Projects #project1 img {
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+
+#Projects #project1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
